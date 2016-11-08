@@ -9,7 +9,7 @@ TenfootFooterPanel
 
 	z-index: footer_zindex;
 
-	background-color: #000000ff;
+	background-color: #1a1a1aff;
 	box-shadow: fill #00000066 -4px -4px 6px 6px;
 	padding-top: 15px;
 
@@ -25,7 +25,7 @@ TenfootFooterPanel.FooterEmpty, TenfootFooterPanel.Hide
 
 TenfootFooterPanel.WebFooter
 {
-	background-color: #000000ff;
+	background-color: #1a1a1aff;
 }
 
 

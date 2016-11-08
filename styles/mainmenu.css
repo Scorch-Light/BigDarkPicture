@@ -134,7 +134,7 @@ MainMenu.BehindMessageBox.CheckoutFormTextEntryLeft
 	width: 100%;
 	height: 100%;
 	opacity-mask: none;
-  background-color: #69696955;
+  background-color: #00000055;
 	
 
 	transition-property: blur, saturation, opacity, transform, wash-color;
@@ -295,7 +295,7 @@ MainMenu #BodyWrapper #GameRowContents
 	horizontal-align: center;
 	margin-top: 200px;
 	opacity: 1.0;
-	background-color: gradient( linear, 0% 0%, 100% 100%, from( #69696900 ), color-stop( 0.5, #696969ff ), to( #69696900 ) );
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #1a1a1a00 ), color-stop( 0.5, #1a1a1aff ), to( #1a1a1a00 ) );
 	z-index: MainMenuZIndex;
 	
 	transition-property: opacity, position, transform;
@@ -561,7 +561,7 @@ MainMenu #BodyWrapper #GameRowContents
 	border-radius: 4px;
 	height: 128px;
 	width: 128px;
-	box-shadow: fill #eeeeee00 -4.5px -4.5px 6px 9px;
+	box-shadow: fill #1a1a1a00 -4.5px -4.5px 6px 9px;
 
 	
 	transition-property: pre-transform-scale2d;
@@ -704,7 +704,7 @@ MainMenu #BodyWrapper #GameRowContents
 	width: 360px;
 	height: 160px;
 	margin: 10px 10px;
-	background-color: #696969;
+	background-color: #1a1a1a;
 
 	transition-property: border, blur, background-color, color, transform, box-shadow;
 	transition-timing-function: ease-out;
@@ -713,14 +713,14 @@ MainMenu #BodyWrapper #GameRowContents
 
 .Button.TopRowButton
 {
-	background-color: #69696900;
+	background-color: #1a1a1a00;
 	box-shadow: none;
 }
 
 
 .Button.TopRowButton .background_box
 {
-	background-color: gradient( linear, 0% 0%, 0% 100%, from( #12334c ), to( #14445e ) );
+	background-color: none;
 	height: 70px;
 	width: 70px;
 	border-radius: 3px;
@@ -740,9 +740,8 @@ MainMenu #BodyWrapper #GameRowContents
 	border-style: solid;
 	border-width: 5px;
 
-	border-color: #fafafaff;
-	background-color: #7c7c7c00 ;
-	box-shadow: box_shadow_on_color -4.5px -4.5px 16px 9px;
+	border-color: #424242ff;
+	background-color: #1a1a1aff ;
 	animation-name: main-button-glow-movement-no-fill;
 	animation-duration: 1.7s;
 	animation-delay: 0.0s;
@@ -799,7 +798,7 @@ MainMenu #BodyWrapper #GameRowContents
 
 .EdgeButtonLeft .MainMenuCapsuleOver
 {
-		opacity-mask: url( "file://{images}/systemmenu/capsule_mask.png" );
+		opacity-mask: none;
 		opacity: 0.0;
 }
 
@@ -824,7 +823,7 @@ MainMenu #BodyWrapper #GameRowContents
 
 .EdgeButtonRight .MainMenuCapsuleOver
 {
-		opacity-mask: url( "file://{images}/systemmenu/capsule_mask.png" );
+		opacity-mask: none;
 		opacity: 0.0;
 }
 
@@ -845,14 +844,14 @@ MainMenu #BodyWrapper #GameRowContents
 
 #LibraryButton
 {
-		background-image: url( "file://{images}/systemmenu/capsule_01.jpg" );
+		background-image: none;
 
 }
 
 
 .MainMenuButton .MainMenuCapsuleOver
 {
-		opacity-mask: url( "file://{images}/systemmenu/capsule_mask.png" );
+		opacity-mask: none;
 		opacity: 0.0;
 		transform: translatey(0px);
 }
@@ -867,22 +866,22 @@ MainMenu #BodyWrapper #GameRowContents
 
 #CommunityButton
 {
-	background-image: url( "file://{images}/systemmenu/capsule_02.jpg" );
+	background-image: none;
 }
 
 #StoreButton
 {
-	background-image: url( "file://{images}/systemmenu/capsule_04.jpg" );
+	background-image: none;
 }
 
 #WebButton
 {
-	background-image: url( "file://{images}/systemmenu/capsule_02.jpg" );
+	background-image: none;
 }
 
 #FriendsButton
 {
-	background-image: url( "file://{images}/systemmenu/capsule_01.jpg" );
+	background-image: none;
 }
 
 
@@ -944,7 +943,7 @@ MainMenu #BodyWrapper #GameRowContents
 .TopRowButton:focus Label,
 .TopRowButton:hover Label
 {
-	color: #ffffff;
+	color: #828282;
 	//pre-transform-scale2d: 1.0;
 	animation-name: none;
 	transform: none;
@@ -965,7 +964,7 @@ Label.TopRowCounter
 	width: fit-children;
 	min-width: 36px;
 	background-color: #00000000;
-	color:#96d4f8ff;
+	color:#828282ff;
 	text-align: center;
 	padding-left: 4px;
 	padding-right: 2px;
@@ -976,7 +975,7 @@ Label.TopRowCounter
 Label.TopRowCounterBackground
 {
 
-	background-color: gradient( linear, 0% 0%, 0% 100%, from( #575757 ), to( #5f5f5f ) );
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #1a1a1a ), to( #424242 ) );
 
 	width: fit-children;
 		min-width: 36px;
@@ -1002,14 +1001,14 @@ transform: none;
 .TopRowButton:focus Label.TopRowCounterBackground,
 .TopRowButton:hover Label.TopRowCounterBackground
 {
-	background-color: gradient( linear, 0% 0%, 0% 100%, from( #7e7e7e ), to( #7a7a7a ) );
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #1a1a1a ), to( #424242 ) );
 
 	width: fit-children;
 	color:#00000000;
     margin-left: 0px;
     padding-left: 4px;
 	padding-right: 6px;
-	opacity-mask: url( "file://{images}/horizontal_gradient_mask.png" );
+	opacity-mask: none;
 	horizontal-align: center;
 
 
@@ -1032,8 +1031,8 @@ transform: none;
 .TopRowButton:focus Image,
 .TopRowButton:hover Image
 {
-	wash-color: #ffffff;
-	color: white;
+	wash-color: #1a1a1a;
+	color: #1a1a1a;
 }
 .TopRowButton.Locked:focus Image,
 .TopRowButton.Locked:hover Image
@@ -1079,7 +1078,7 @@ transform: none;
 
 .Button.EdgeButton Label
 {
-	//background-color: #37373766;
+	//background-color: #1a1a1a66;
 	height: 52px;
 	margin-bottom: 8px;
 	padding: -2px;
@@ -1099,7 +1098,7 @@ transform: none;
 	vertical-align: center;
 	margin: 0px;
 	wash-color: ui_primary_color;
-	color: #f2f2f2;
+	color: #1a1a1a;
 	opacity: 1.0;
 	transform: translatey(-10px);
 
@@ -1149,21 +1148,21 @@ transform: none;
 .EdgeButtonRight:focus Image,
 .EdgeButtonLeft:focus Image
 {
-		wash-color: #f2f2f2;
+		wash-color: #424242;
 	//	transform: translatex(0px) translatey(0px);
 }
 
 
 .MainMenuButton .EdgeButtonLeft Image
 {
-		wash-color: #f2f2f2;
+		wash-color: #1a1a1a;
 		//transform: translatex(32px) translatey(-10px);
 }
 
 .MainMenuButton .EdgeButtonRight Image
 
 {
-		wash-color: #f2f2f2;
+		wash-color: #1a1a1a;
 		transform: translatex(32px) translatey(-10px);
 }
 
@@ -1219,7 +1218,7 @@ transform: none;
 }
 .GameItem:descendantfocus .GameItemHeader Label
 {
-	color: white;
+	color: #828282;
 }
 .GameItem.game_1,
 .GameItem.game_2
@@ -1243,7 +1242,7 @@ transform: none;
 {
 	width: 40px;
 	height: 40px;
-	wash-color: #fbfbfb;
+	wash-color: #1a1a1a;
 }
 
 .GameItemHeader .FriendsPlayingImage 
@@ -1256,7 +1255,7 @@ transform: none;
 {
 	horizontal-align: left;
 	vertical-align: bottom;
-	color: #d5d5d5;
+	color: #424242;
 	font-size: 26;
 	font-weight: light;
 	height: 50px;
@@ -1289,7 +1288,7 @@ transform: none;
 	padding: 5px;
 	margin: 0px;
 	box-shadow: none;
-	background-color: #fafafaff;
+	background-color: #424242ff;
 
 	box-shadow: box_shadow_on_color -4.5px -4.5px 16px 9px;
 	animation-name: main-button-glow-movement-no-fill;
@@ -1343,7 +1342,7 @@ transform: none;
 .Button:focus .MainMenuRowLabel,
 .Button:hover .MainMenuRowLabel
 {
-	color: #d6f5ffff;
+	color: #424242ff;
 	opacity: 1.0;
 	transform: translatey(0px);
 	
@@ -1355,7 +1354,7 @@ transform: none;
 {
 	width: 100px;
 	height: 48px;
-	background-color: #f9f9f933;
+	background-color: #1a1a1a33;
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
 	
@@ -1378,7 +1377,7 @@ transform: none;
 {
 	width: 100px;
 	height: 48px;
-	background-color: #f9f9f933;
+	background-color: #1a1a1a33;
 	border-top-left-radius: 12px;
 	border-bottom-left-radius: 12px;
 	
@@ -1474,7 +1473,7 @@ transform: none;
 .MainMenuButton:focus Image,
 .MainMenuButton:hover Image
 {
-	wash-color: #fafafa;	
+	wash-color: #424242;	
 	transform: translatey(-18px);
 	opacity: 1.0;
 	transition-property: opacity, transform, pre-transform-scale2d, saturation, wash-color, blur;

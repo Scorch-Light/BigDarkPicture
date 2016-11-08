@@ -61,9 +61,9 @@
 @define brightblue: #66c0f4;
 
 /* Main menu colors */
-@define tcexitrow: gradient( linear, 0% 0%, 0% 100%, from( #919191ff ), to( #b3b3b3ff ) );
-@define tcexitrowhover: gradient( linear, 0% 0%, 0% 100%, from( #d1d1d1ff ), to( #dbdbdbff ) );
-@define tcexitrowfocus: gradient( linear, 0% 0%, 0% 100%, from( #666666ff ), to( #616161ff ) );
+@define tcexitrow: gradient( linear, 0% 0%, 0% 100%, from( #1a1a1aff ), to( #1a1a1aff ) );
+@define tcexitrowhover: gradient( linear, 0% 0%, 0% 100%, from( #424242ff ), to( #424242ff ) );
+@define tcexitrowfocus: gradient( linear, 0% 0%, 0% 100%, from( #424242ff ), to( #424242ff ) );
 @define tcmainbutton: gradient( linear, 0% 0%, 0% 100%, from( #f2f2f2ff ), to( #abababff ) );
 @define tcmainbuttonselected: gradient( linear, 0% 0%, 0% 100%, from( #1b1b1bff ), to( #1b1b1bf0 ) );
 @define tcselflabel: gradient( linear, 0% 0%, 0% 100%, color-stop( 0.0, #24242460 ), color-stop( 1.0, #242424cf ) );
@@ -126,18 +126,18 @@
 
 //@define horizontal_focus: gradient( linear, -10% 0%, 110% 0%, from( #398999cc ), to( #395280ff ) );
 @define dialog_bg_color: gradient( radial, 0% -0%, 120px -40px, 420% 370%, from( #949494 ), color-stop( 0.26, #4d4d4dff ) );
-@define overlay_bg_color: #737373aa;
+@define overlay_bg_color: #000000aa;
 @define message_box_bg: gradient( radial, 0% -0%, 120px -40px, 120% 150%, from( #737373 ), to( #3d3d3d ) );
 @define message_box_bg_dark: #3d3d3dff;
 @define notification_bg: gradient( linear, 0% 0%, 100% 100%, from( #757575 ), to( #535353 ) );
 @define dropdown_box_bg: gradient( linear, 0% 0%, 100% 100%, from( #8c8c8c ), to( #3d3d3d ) );
 
-@define box_shadow_on_color: #ebebebcc;
-@define box_shadow_mid_color: #ffffff33;
-@define box_shadow_off_color: #ebebeb00;
+@define box_shadow_on_color: #424242cc;
+@define box_shadow_mid_color: #42424233;
+@define box_shadow_off_color: #42424200;
 @define dark_box_shadow_color: #59595988;
 @define dark_box_shadow_color_opaque: #2e2e2eff;
-@define light_box_shadow_color: #cccccc55;
+@define light_box_shadow_color: #42424255;
 @define mouse_off_bg_left: gradient( radial, 0% 50%, 0% 0%, 80px 180px, from( #54545400 ), to( #24242400 ) );
 @define mouse_hover_bg_left: gradient( radial, 0% 50%, 0% 0%, 80px 180px, from( #545454ff ), to( #24242400 ) );
 @define mouse_active_bg_left: gradient( radial, 0% 50%, 0% 0%, 80px 180px, from( #9e9e9eff ), to( #24242400 ) );
@@ -175,8 +175,8 @@
 @define action_button: gradient( linear, 0% 0%, 100% 100%, from( #18c8c8c ), to( #3d3d3d ) );
 @define link: #2a6f8cff;
 @define linkbright: #52a7ccff;
-@define carousel_title: gradient( linear, 0% 0%, 100% 100%, from( #fefefeff ), to( #b0b0b0ff ) );
-@define ui_primary_color: #14c6fcff;
+@define carousel_title: #424242;
+@define ui_primary_color: #424242ff;
 @define ui_primary_dark_color: #158eb3ff;
 @define ui_common_control: gradient( linear, -10% 0%, 110% 0%, from( #808080ff ), to( #525252ff ) );
 @define ui_common_control2: gradient( linear, 0% 0%, 0% 100%, from( #78787866 ), to( #969696ff ) );
